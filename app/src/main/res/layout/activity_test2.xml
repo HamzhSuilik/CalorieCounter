@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test2"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/ba_g">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bc2"
+        android:layout_weight="2"
+        >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="حاجة الجسم اليومية للسعرات الحرارية"
+            android:textColor="@color/txt3"
+            android:textSize="20sp"
+
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1.5"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:layout_weight="2.05"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/fe"
+            android:gravity="center"
+            android:text="الطول"
+            android:textColor="@color/txt"
+            android:textSize="26sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/tall"
+            android:background="@color/f5"
+            android:hint="أدخل الطول بالسانتيمتر"
+            android:inputType="number"/>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:layout_weight="2.05"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/fe"
+            android:gravity="center"
+            android:text="الوزن"
+            android:textColor="@color/txt"
+            android:textSize="26sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/weight"
+            android:background="@color/f5"
+            android:hint="أدخل الوزن بالكيلو جرام"
+            android:inputType="number"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:layout_weight="2.05"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/fe"
+            android:gravity="center"
+            android:text="العمر"
+            android:textColor="@color/txt"
+            android:textSize="26sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/age"
+            android:background="@color/f5"
+            android:hint="أدخل العمر بالسنوات"
+            android:inputType="number"/>
+
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:background="@drawable/wooden"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:text="الجنس"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="@color/txt"
+        android:layout_weight="2.1"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ذكر"
+            android:layout_gravity="right"
+            android:textSize="17sp"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:id="@+id/a2"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="أنثى"
+            android:textSize="17sp"
+            android:textStyle="bold"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2.1"
+
+        android:background="@drawable/wooden"
+        android:gravity="center"
+        android:text="الهدف"
+        android:textColor="@color/txt"
+        android:textSize="25sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="المحافظة على الوزن"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_gravity="right"/>
+
+        <RadioButton
+            android:id="@+id/b2"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:text=" رجيم" />
+    </RadioGroup>
+
+    <TextView
+        android:background="@drawable/wooden"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:text="المجهود البدني "
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="@color/txt"
+        android:layout_weight="2.1"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/c1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="قليل"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_gravity="right"/>
+
+        <RadioButton
+            android:id="@+id/c2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="متوسط"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_gravity="right"/>
+
+        <RadioButton
+            android:id="@+id/c3"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:text=" كبير" />
+    </RadioGroup>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:onClick="goo"
+        android:text="إحسب"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="@drawable/stone"
+        android:gravity="center"
+        android:text="النتيجة : ..."
+        android:textColor="@color/txt"
+        android:textSize="26sp" />
+
+
+
+
+
+</LinearLayout>

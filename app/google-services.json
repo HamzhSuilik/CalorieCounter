@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "995803436241",
+    "firebase_url": "https://t5sis-74b60.firebaseio.com",
+    "project_id": "t5sis-74b60",
+    "storage_bucket": "t5sis-74b60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995803436241:android:4055f8173bb67fd5",
+        "android_client_info": {
+          "package_name": "t5sis.slimming"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995803436241-5ogidf68077iranl5lkcoplfeum02u90.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHQg7Vjqr2vqIEPTSyyvpWb3-JyeHUJn0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

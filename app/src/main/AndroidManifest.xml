@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="t5sis.slimming">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".start"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".main"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".show"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".food_view"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".article"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".main_menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".test"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sql_add_new"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sql_show_data"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".test1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".test2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".test3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".test4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".test5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".test6"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ads"
+            android:screenOrientation="portrait" />
+
+
+        <activity android:name=".vidio"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>
